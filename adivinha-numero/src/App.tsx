@@ -34,6 +34,7 @@ function App() {
 <div className='painel-chute'>
 
     <p>{numeroAleatorio}</p>
+    <h1>Chute um número abaixo:</h1>
     
     <input value={input} onChange={(event) => handleInput(event)}/> 
 
